@@ -34,7 +34,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        
+
         <div className={styles.grid}>
           <form encType="multipart/form-data" onSubmit={submitHandler} method="POST">
             <FormLabel htmlFor="f">First Name: </FormLabel>
@@ -46,6 +46,7 @@ export default function Home() {
             <Button type="submit" variant="contained" color="primary">submit</Button>
           </form>
         </div>
+        
         <br />
         <div>{result}</div>
       </main>
